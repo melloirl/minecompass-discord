@@ -14,6 +14,6 @@
   },
   "scripts": {
     "serve": "node ./app/js/app.js",
-    "build": "node ./app/js/app.js"
+    "build": "npx tsc"
   }
 }
