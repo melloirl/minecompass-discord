@@ -14,7 +14,7 @@ async function start() {
         // Descomentar para restar os comandos disponíveis ao estado atual.
         //await client.clearApplicationCommands('498584006498058240');
         await client.initApplicationCommands();
-        console.log("Ready.");
+        console.log("Ready and listening.");
     });
     client.on("interactionCreate", (interaction) => {
         client.executeInteraction(interaction);
