@@ -13,6 +13,6 @@
     "sqlite3": "^5.1.2"
   },
   "scripts": {
-    "serve": "node ./app/js/app.js"
+    "build": "node ./app/js/app.js"
   }
 }

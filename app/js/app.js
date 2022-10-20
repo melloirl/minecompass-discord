@@ -9,7 +9,6 @@ async function start() {
             IntentsBitField.Flags.Guilds,
             IntentsBitField.Flags.GuildMessages,
         ],
-        botGuilds: ['498584006498058240'],
     });
     client.once("ready", async () => {
         // Descomentar para restar os comandos disponíveis ao estado atual.

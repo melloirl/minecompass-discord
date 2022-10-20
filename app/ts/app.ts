@@ -12,7 +12,6 @@ async function start() {
             IntentsBitField.Flags.Guilds,
             IntentsBitField.Flags.GuildMessages,
         ],
-        botGuilds: ['498584006498058240'],
     });
 
     client.once("ready",async () => {
